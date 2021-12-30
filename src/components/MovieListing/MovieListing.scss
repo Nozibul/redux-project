@@ -1,6 +1,6 @@
 @import "../../common/colors.scss";
 
-.movie-list{
+.movie-list, .show-list{
     margin: 20px 0px;
     h2{
        color: $font-secondary;
@@ -15,4 +15,5 @@
     // grid-template-columns: repeat(4, 1fr);
     // grid-template-columns:repeat(auto-fit);
     grid-gap: 25px;
+    margin:0px 20px ;
 }
