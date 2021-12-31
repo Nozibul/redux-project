@@ -21,7 +21,7 @@ function App() {
         <Routes>
          
           <Route path="/" element={<Home />} />
-          <Route path="/movie/:imbId" element={<MovieDetails />} />
+          <Route path="/movie/:imdbID" element={<MovieDetails />} />
           <Route path="*" element={<PageNotFound />} />
           
        </Routes>    
